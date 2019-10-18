@@ -1,0 +1,310 @@
+header {
+background-color: #003C5A;
+padding-top: 5em;
+}
+
+p{
+    color: #7d7d7d;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.navbar{
+    color: white;
+    background: #003c5a;
+    text-align: center;
+    padding: 60px 1rem 50px 1rem;
+    
+}
+.nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2379a3;
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-text,
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-brand:hover {
+    color: white;
+    transition: color 0.40s ease-in-out;
+  }
+
+  
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    margin-top: -10px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+li a {
+    color: white ;
+    text-decoration: none;
+   
+    
+
+}
+
+
+.rd-navbar-brand{
+    font: 700 30px/62px "Merriweather", serif;
+    color:white
+    line-height: 15px;
+    
+    
+}
+.dropdown-item {
+    background: #003c5a;
+    color:white;
+
+}
+
+
+h1 {
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 1.rem;
+}
+
+
+
+h2{
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 300;
+    font-family: "Merriweather", serif;
+    color: #252525;
+    font-size: 30px;
+    line-height: 1.55;
+}
+
+h2 .textleft{
+    text-align: center;
+}
+
+
+
+h3{
+    color: #555555;
+    font-size: 20px;
+    line-height: 1.3125;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+
+}
+
+
+h4 {
+    color: #555555;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.45;
+    display: block;
+    font-family: "Merriweather", serif;
+}
+
+
+#navbarText {
+    justify-content: space-between;
+}
+
+#navfooter{
+    background-color: #272727;
+}
+
+
+.navbar-expand-lg{
+    justify-content: flex-start;
+}
+  
+.footer-navbar
+  {
+    justify-content:flex-end;
+    padding: 0.5rem 2rem;
+    border: none;
+    color: #7d7d7d;
+}
+
+.blockquote p 
+  {
+color: white;
+  }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.5rem 2rem;
+}
+  
+.navbar-light .navbar-toggler{
+    border: none;
+}
+  
+.navbar-light .navbar-toggler-icon{
+    background: url("boutton.png") no-repeat;
+    background-size: cover;
+}
+  
+  
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+      justify-content: space-between;
+    }
+}
+
+.img02{
+    padding-top:20px;
+    /* width="623" height="537"; */
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+} 
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;
+    white-space: nowrap;
+    max-width: 100%;
+    border-style: solid;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    border-radius: 24px;
+    cursor: pointer;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s all ease;
+}
+
+.btn-md {
+    font-size: 15px;
+    padding: 15px 55px 17px;
+    letter-spacing: .6px;
+}
+
+
+.bg-color-dark {
+    background: #003c5a;
+    color: #fff;
+}
+
+.bg-color-dark2
+ {
+    background: #e76e33;
+    color: #fff;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.padding{
+padding-top: 55px;
+padding-bottom: 55px;
+}
+
+
+.bg-color-light {
+    background: #edf4f8;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+.bg-color-light2 {
+    background: #eaf2f6;
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+
+
+
+
+.btn-warning {
+    color: #fff;
+    position: relative;
+    background: #fc8f44;
+    overflow: hidden;
+    box-shadow: 0 2px 30px 0 rgba(201, 21, 21, 0.09);
+}
+
+.copyright {
+    padding-top: 18px;
+    padding-bottom: 33px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #7d7d7d;
+ 
+}
+
+footer
+{
+    background-color: #272727;
+}
+
+.blockquote-footer
+{
+    color: white;
+    background-color: #e76e33;
+}
+
+.mailform {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-carousel{
+    background: #e76e33;
+    color: #fff;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+
+
+.mailform-row{
+    width: 100%;
+    align-content: center;
+}
+
+.mailform .btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mailform-input-email{
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 35px;
+    color: #a2a2a2;
+    background: #fff;
+    margin-top: 20px;
+
+}
+.p-carousel{
+    color:white;
+    font: 300 italic 18px/40px "Merriweather", serif;
+    letter-spacing: -0.1px;
+    text-align: center;
+    padding-bottom: 50px;
+
+} 
+.bg-carousel{
+    
+}
